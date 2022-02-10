@@ -1,2 +1,2 @@
-# nextjs-mongodb-crud
-NextJS &amp; MongoDB CRUD
+# CRUD with NextJS & MongoDB
+Server Side Rendering CRUD prototype.
