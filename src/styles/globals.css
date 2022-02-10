@@ -1,0 +1,159 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+  --negro: #1a1a1a;
+}
+
+body{
+  background-color: black;
+}
+input, textarea{
+  outline: none;
+  padding: 0.3em;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  border-radius: 5px;
+  border: 0;
+  resize: none;
+}
+textarea{
+  height: 80px;
+}
+.newtask_flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newtask{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background-color: var(--negro);
+  margin-top: 5%;
+  padding: 3em;
+  border-radius: 10px;
+}
+
+.newtask label:first-child{
+  margin-top: 0;
+}
+.newtask label{
+  color: #fdfdfd;
+  font-weight: 600;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.newtask button{
+  width: 20%;
+  margin-top: 8%;
+  padding: 0.3em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  border: 0px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fdfdfd;
+  background-color: #1976d2;
+  cursor: pointer;
+}
+
+
+/* Display Tareas */
+
+.tasks_grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-right: 18%;
+  margin-left: 18%;
+  padding: 1em;
+  color: #fdfdfd;
+}
+.task{
+  background-color: var(--negro);
+  padding: 1em;
+  width: 350px;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.task p:first-child{
+  font-size: 20px;
+  font-weight: 600;
+  color: #1976d2;
+}
+
+.task button{
+  margin-top: 10%;
+  margin-right: 16px;
+  font-weight: 600;
+}
+
+/* Update task */
+
+.action_grid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task_details{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background-color: var(--negro);
+  margin-top: 5%;
+  padding: 3em;
+  border-radius: 10px;
+}
+.task_details p{
+  color: #1976d2;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 3%;
+}
+
+.task_details input{
+  margin-bottom: 4%;
+}
+
+.task_details button{
+  width: 30%;
+  margin-top: 8%;
+  padding: 0.3em;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  border: 0px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fdfdfd;
+  background-color: #1976d2;
+  cursor: pointer;
+}
+
+.action_buttons{
+  display: flex;
+  flex-direction: row;
+}
+
+.action_buttons button:first-child{
+  margin-right: 16px;
+}
+
+/* Info grid */
+
+.info_grid{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15%;
+}

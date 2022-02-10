@@ -1,0 +1,16 @@
+.navbar{
+    background-color: #1a1a1a;
+}
+.nav-grid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 18%;
+    margin-right: 18%;
+    padding: 1em;
+}
+
+.nav-logo h1{
+    color: #fdfdfd;
+}
